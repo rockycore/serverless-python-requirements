@@ -38,6 +38,7 @@ class ServerlessPythonRequirements {
         dockerSsh: false,
         dockerImage: null,
         dockerFile: null,
+        dockerEnv: [],
         pipCmdExtraArgs: [],
         noDeploy: [
           'boto3',
